@@ -43,13 +43,7 @@ function changePhoto() {
     });
 })(jQuery);
 
-/*
- * This file is used for interaction with the canvas element and initializations
- */
 
-/*******************************************************
- * Change canvas 1 background after image was selected *
- ******************************************************/
 function setBackground() {
     var file = $("#singleUpload")[0].files[0];
     var canvas = document.getElementById("background");
@@ -66,17 +60,12 @@ function setBackground() {
     reader.readAsDataURL(file);
 }
 
-/*************************************
- * Global variables, initialisations *
- ************************************/
 $("#singleUpload").val("");                
 $("#modelSelect").val("");                 
 
 document.getElementById("background").style.visibility = "hidden";              
 
-/**************************************
- * Export canvas and download as imag *
- *************************************/
+
 var link = document.getElementById('btn-download');
 link.addEventListener('click', function (e) {
 
@@ -104,9 +93,7 @@ link.addEventListener('click', function (e) {
     link.download = "photo.png";      
 }, false);
 
-/***************************************
- * Change model after drop-down select *
- **************************************/
+
 function modelSelect() {
 
     var background = document.getElementById("background"); 
@@ -232,9 +219,7 @@ function modelSelect() {
     }
 }
 
-/**********************************************************
- * Register drag & drop event listeners to canvas element *
- *********************************************************/
+
 function registerEvents(canvas) {
 
     canvas.ondragenter = function () {
