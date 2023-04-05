@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Μαθήματα ανα Εξάμηνο</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+  </head>
+    
+    <body class="sb-nav-fixed">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        color: grey;
+        background-color: white;
+      }
+    </style>
+      <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+          <a class="navbar-brand" href="Untitled-1.html">Πανεπιστήμιο Αιγαίου</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
+          ><!-- Navbar Search-->
+          <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+              <div class="input-group">
+                  <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+                  <div class="input-group-append">
+                      <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                  </div>
+              </div>
+            </form>
+  
+          <!-- Navbar-->
+          <ul class="navbar-nav ml-auto ml-md-0">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                      <a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Activity Log</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="login.html">Logout</a>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+      <div id="layoutSidenav">
+          <div id="layoutSidenav_nav">
+              <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                  <div class="sb-sidenav-menu">
+                      <div class="nav">
+                          <div class="sb-sidenav-menu-heading">Αρχικη</div>
+                          <a class="nav-link" href="Untitled-1.html"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                              ΜΠΕΣ</a
+                          >
+                          <div class="sb-sidenav-menu-heading">Υπηρεσιες</div>
+                          <a class="nav-link collapsed" href="panepistimio.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                        ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Το Πανεπιστήμιο
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                    ></a>
+                          <a class="nav-link collapsed" href="prosopiko.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                              Προσωπικό
+                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                          ></a>
+                          <a class="nav-link collapsed" href="annoucments.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                                  ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                  Ανακοινώσεις
+                                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                              ></a>
+                          <a class="nav-link collapsed" href="imerologio.html" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                              Ακαδημαικό Ημερολόγιο
+                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                          ></a>
+                          <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                              <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                              </nav>
+                          </div>
+                          <div class="sb-sidenav-menu-heading">Μαθηματα</div>
+                          <a class="nav-link" href="mathimata.html"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                              Ανά εξάμηνο</a
+                          >
+                      </div>
+                  </div>
+              </nav>
+          </div>
+          <div id="layoutSidenav_content">
+              <main>
+                  <div class="container-fluid">
+                  </div>
+                  
+                    <style>
+                    
+      h1{
+          color: grey;
+          font-weight: bold;
+          text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+      ul {
+        margin-top: 20px;
+        list-style: none;
+        padding-left: 20;
+      }
+      li {
+        margin-bottom: 20px;
+      }
+      li:before {
+        content: "•";
+        display: -webkit-inline-box;
+        width: 1em;
+        margin-left: -2em;
+      }
+    </style>
+<h1>Μαθήματα ανά Εξάμηνο</h1>
+    <p>Ακολουθεί μια λίστα με τα μαθήματα που προσφέρει το πανεπιστήμιο ανά εξέταση:</p>
+    
+    <ul>
+      <li>1ο Εξάμηνο
+        <ul>
+          <li><a href="lesson1.html">Μαθηματικά για Μηχανικούς Ι </a></li>
+          <li>Δομημένος Προγραμματισμός</li>
+          <li>Εισαγωγή στην Επιστήμη των Υπολογιστών & Επικοινωνιών</li>
+          <li>Διακριτά Μαθηματικά Ι</li>
+          <li>Λογική Σχεδίαση</li>
+          <li>Φυσική</li>
+        </ul>
+      </li>
+      <li>2ο Εξάμηνο
+        <ul>
+          <li>Αντικειμενοστρεφής Προγραμματισμός Ι</li>
+          <li>Πιθανότητες και Στατιστική</li>
+          <li>Διακριτά Μαθηματικά ΙΙ</li>
+          <li>Θεωρία Κυκλωμάτων</li>
+          <li>Μαθηματικά για Μηχανικούς ΙΙ
+        </li>
+          <li>Επικοινωνίες Υπολογιστών</li>
+        </ul>
+      </li>
+      <li>3ο Εξάμηνο
+        <ul>
+            <li>Δομές Δεδομένων</li>
+            <li>Αρχιτεκτονική Υπολογιστών</li>
+            <li>Αντικειμενοστρεφής Προγραμματισμός ΙΙ</li>
+          <li>Στοχαστικές Διαδικασίες</li>
+          <li>Σήματα και Συστήματα</li>
+          <li>Ψηφιακή Καινοτομία & Επιχειρηματικότητα</li>
+        </ul>
+      </li>
+    <li>4ο Εξάμηνο
+        <ul>
+            <li>Ανάλυση και Σχεδιασμός Πληροφοριακών Συστημάτων</li>
+            <li>Βάσεις Δεδομένων Ι</li>
+            <li>Λειτουργικά Συστήματα</li>
+            <li>Προηγμένα Θέματα Γλωσσών Προγραμματισμού</li>
+            <li>Αλγόριθμοι και Πολυπλοκότητα</li>
+            <li>Ηλεκτρονική</li>
+        </ul>
+    </li>
+    </ul>
+    <p>Εάν έχετε ερωτήσεις σχετικά με τα μαθήματα που προσφέρει το πανεπιστήμιο ανά εξέταση, <a href="contact.html">επικοινωνήστε μαζί μας</a>.</p>
+    <footer>
+        <p>&copy; 2023 ΜΠΕΣ</p>
+      </footer>
+  </body>
+</html>

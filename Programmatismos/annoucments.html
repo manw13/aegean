@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ανακοινώσεις</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="sb-nav-fixed">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        color: grey;
+        background-color: white;
+      }
+    
+    </style>
+      <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+          <a class="navbar-brand" href="Untitled-1.html">Πανεπιστήμιο Αιγαίου</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
+          ><!-- Navbar Search-->
+          <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+              <div class="input-group">
+                  <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+                  <div class="input-group-append">
+                      <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                  </div>
+              </div>
+            </form>
+  
+          <!-- Navbar-->
+          <ul class="navbar-nav ml-auto ml-md-0">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                      <a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Activity Log</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="login.html">Logout</a>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+      <div id="layoutSidenav">
+          <div id="layoutSidenav_nav">
+              <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                  <div class="sb-sidenav-menu">
+                      <div class="nav">
+                          <div class="sb-sidenav-menu-heading">Αρχικη</div>
+                          <a class="nav-link" href="Untitled-1.html"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                              ΜΠΕΣ</a
+                          >
+                          <div class="sb-sidenav-menu-heading">Υπηρεσιες</div>
+                          <a class="nav-link collapsed" href="panepistimio.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                        ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Το Πανεπιστήμιο
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                    ></a>
+                          <a class="nav-link collapsed" href="prosopiko.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                              Προσωπικό
+                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                          ></a>
+                          <a class="nav-link collapsed" href="annoucments.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                                  ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                  Ανακοινώσεις
+                                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                              ></a>
+                          <a class="nav-link collapsed" href="imerologio.html" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                              Ακαδημαικό Ημερολόγιο
+                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                          ></a>
+                          <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                              <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                              </nav>
+                          </div>
+                          <div class="sb-sidenav-menu-heading">Μαθηματα</div>
+                          <a class="nav-link" href="mathimata.html"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                              Ανά εξάμηνο</a
+                          >
+                      </div>
+                  </div>
+              </nav>
+          </div>
+          <div id="layoutSidenav_content">
+              <main>
+                  <div class="container-fluid">
+                  </div>
+                  
+
+    <h2> Ανακοινώσεις</h2>
+
+
+    
+    <div class="announcements">
+        <table border="1" bordercolor="black" cellpadding="20" cellspacing="0">
+          <style>
+            /* CSS styles go here */
+            
+            body {
+              font-family: Arial, sans-serif;
+              color: grey;
+              background-color: white;
+            }
+            h1, h2 {
+                color: rgb(55, 54, 54);
+              text-align: center;
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+            table {                                                    
+              border-collapse: separate;
+              margin: 0 auto;
+              width: 80%;
+            }
+            th, td {
+              border-bottom: 1px solid #ddd;
+              padding: 8px;
+              text-align: center;
+            }
+            th {
+              background-color: #f2f2f2;
+            }
+          </style>
+          <thead>
+            <tr>
+              <th>Ημερομηνία</th>
+              <th>Τίτλος</th>
+              <th>Περιγραφή</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Μάρτιος 1, 2023</td>
+              <td>Αρχή Εαερινού Εξαμήνου</td>
+              <td>Το εαρινό εξάμηνο ξεκινά επίσημα την 1η Μαρτίου 2023. Οι φοιτητές θα πρέπει να ελέγχουν τα ωράρια τους στο πρόγραμμα που αναρτήθηκε για τυχόν αλλαγές.</td>
+              <td><a href="https://www.icsd.aegean.gr/webfiles/announcements/1674824104.pdf">More info</a></td>
+            </tr>
+            <tr>
+              <td>Απρίλιος 15, 2023</td>
+              <td>Πρακτική Άσκηση</td>
+              <td>Πρόγραμμα: «Πρακτική Άσκηση Πανεπιστημίου Αιγαίου για το ακαδημαϊκό έτος 2022-2023»</td>
+              <td><a href="https://www.icsd.aegean.gr/webfiles/announcements/1678276170.pdf">More info</a></td>
+            </tr>
+            <tr>
+              <td>Μάιος 27, 2023</td>
+              <td>Απονομή Πτυχίων</td>
+              <td>Η τελετή αποφοίτησης για την Άνοιξη θα πραγματοποιηθεί στις 27 Μαΐου 2023. Οι απόφοιτοι θα πρέπει να φτάσουν τουλάχιστον μία ώρα νωρίτερα για να κάνουν check-in και να παραταχθούν.</td>
+              <td><a href="https://example.com/graduation-ceremony">More info</a></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <footer>
+            <p>&copy; 2023 ΜΠΕΣ</p>
+          </footer>
+  </body>
+</html>

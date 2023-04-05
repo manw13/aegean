@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+	<title>Πληροφορίες Διδάσκοντα</title>
+    
+	<style>
+                        h1 {
+           color: rgb(55, 54, 54);
+           text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+    }
+    h2{
+        color: rgb(55, 54, 54);
+        font-size:large;
+           text-align: left;
+            margin-top: 20px;
+            margin-bottom: 20px;
+    }
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			text-align: left;
+			padding: 8px;
+			border-bottom: 1px solid #ddd;
+		}
+		th {
+			background-color: #f2f2f2;
+		}
+	</style>
+</head>
+  </head>
+  <body class="sb-nav-fixed">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        color: grey;
+        background-color: white;
+      }
+    </style>
+      <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+          <a class="navbar-brand" href="Untitled-1.html">Πανεπιστήμιο Αιγαίου</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
+          ><!-- Navbar Search-->
+          <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+              <div class="input-group">
+                  <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+                  <div class="input-group-append">
+                      <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                  </div>
+              </div>
+            </form>
+  
+          <!-- Navbar-->
+          <ul class="navbar-nav ml-auto ml-md-0">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                      <a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Activity Log</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="login.html">Logout</a>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+      <div id="layoutSidenav">
+          <div id="layoutSidenav_nav">
+              <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                  <div class="sb-sidenav-menu">
+                      <div class="nav">
+                          <div class="sb-sidenav-menu-heading">Αρχικη</div>
+                          <a class="nav-link" href="Untitled-1.html"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                              ΜΠΕΣ</a
+                          >
+                          <div class="sb-sidenav-menu-heading">Υπηρεσιες</div>
+                          <a class="nav-link collapsed" href="panepistimio.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                        ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Το Πανεπιστήμιο
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                    ></a>
+                          <a class="nav-link collapsed" href="prosopiko.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                              Προσωπικό
+                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                          ></a>
+                          <a class="nav-link collapsed" href="annoucments.html" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
+                                  ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                  Ανακοινώσεις
+                                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                              ></a>
+                          <a class="nav-link collapsed" href="imerologio.html" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                              Ακαδημαικό Ημερολόγιο
+                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
+                          ></a>
+                          <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                              <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                              </nav>
+                          </div>
+                          <div class="sb-sidenav-menu-heading">Μαθηματα</div>
+                          <a class="nav-link" href="mathimata.html"
+                              ><div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                              Ανά εξάμηνο</a
+                          >
+                      </div>
+                  </div>
+              </nav>
+          </div>
+          <div id="layoutSidenav_content">
+              <main>
+                  <div class="container-fluid">
+                  </div>
+                  <h1>
+                    Πληροφορίες Προέδρου
+                </h1>
+                </style>
+    <table>
+      <tr>
+        <th>Ονοματεπώνυμο</th>
+        <th>Ειδικότητα</th>
+        <th>Ώρες Γραφείου</th>
+      </tr>
+      <tr>
+        <td>Μαρία Καρύδα</td>
+        <td>Πρόεδρος Τμήματος</td>
+        <td>Δευ 4-5μμ, Πεμ 9αμ-12μμ</td>
+      </tr>
+    </table>
+<h2>Εκπαίδευση - Σπουδές</h2>
+<p style="font-size: 16px; background-color: lightgrey; padding: 10px;">
+    &ndash; Διδακτορικό Δίπλωμα, Οικονομικό Πανεπιστήμιο Αθηνών, Τμήμα Πληροφορικής. Περιοχή Έρευνας: Διοίκηση Ασφάλειας Πληροφοριακών Συστημάτων. Τίτλος Διδακτορικής Διατριβής: “Διοίκηση Ασφάλειας Πληροφοριακών Συστημάτων: Οργανωσιακά Ζητήματα Ανάπτυξης, Εφαρμογής και Ενσωμάτωσης Πολιτικών Ασφάλειας”
+    <br><br>&ndash;Μεταπτυχιακό Δίπλωμα Ειδίκευσης στα Πληροφοριακά Συστήματα (M.Sc.), Οικονομικό Πανεπιστήμιο Αθηνών, Τμήμα Πληροφορικής. Τίτλος Μεταπτυχιακής Διατριβής: “Οι συνέπειες της τεχνολογικής υπεροχής σε θέματα Ασφάλειας Πληροφοριών, στον ανταγωνισμό γεωπολιτικών σχηματισμών”.
+    Προπτυχιακό Πρόγραμμα Σπουδών:
+"Διοίκηση Πληροφοριακών Συστημάτων"
+"Θωρία Συστημάτων"
+"Διαχείριση Έργων Πληροφορικής"
+Μεταπτυχιακό Πρόγραμμα Σπουδών, Κατεύθυνση "Διοίκηση Πληροφοριακών Συστημάτων"
+
+"Πληροφοριακά Συστήματα "
+"Πληροφοριακά Συστήματα στη Δημόσια Διοίκηση"Πτυχίο Πληροφορικής, Οικονομικό Πανεπιστήμιο Αθηνών, Τμήμα Πληροφορικής.
+</p>
+<h2>Ερευνητικά Ενδιαφέροντα</h2>
+<p style="font-size: 16px; background-color: lightgrey; padding: 10px;">
+    &ndash; Πληροφοριακά Συστήματα, Διαχείριση Ασφάλειας Πληροφοριακών Συστημάτων, Ιδιωτικότητα & Κοινωνικα Δίκτυα
+    </p>
+    <h2>Διδασκαλία</h2>
+<p style="font-size: 16px; background-color: lightgrey; padding: 10px;">
+    Προπτυχιακό Πρόγραμμα Σπουδών:
+    <br><br>&ndash;"Διοίκηση Πληροφοριακών Συστημάτων"
+    <br><br>&ndash;"Θωρία Συστημάτων"
+    <br><br>&ndash;"Διαχείριση Έργων Πληροφορικής"
+    <br><br>&ndash;Μεταπτυχιακό Πρόγραμμα Σπουδών, Κατεύθυνση "Διοίκηση Πληροφοριακών Συστημάτων"
+    <br><br>&ndash;"Πληροφοριακά Συστήματα "
+    <br><br>&ndash;"Πληροφοριακά Συστήματα στη Δημόσια Διοίκηση"
+    </p>
+    <h2>Επιτροπές - Διοικητικό έργο</h2>
+    <p style="font-size: 16px; background-color: lightgrey; padding: 10px;">
+        &ndash;Tακτικό μέλος της Επιτροπής Πληροφορικής της Σχολής Θετικών Επιστημών του Πανεπιστημίου Αιγαίου (2010-11).
+        <br><br>&ndash;Aναπληρωματικό μέλος της Συντονιστικής Επιτροπής του Προγράμματος Μεταπτυχιακών Σπουδών, του Τμήματος Μηχανικών Πληροφοριακών και Επικοινωνιακών Συστημάτων του Πανεπιστημίου Αιγαίου (2010-).
+        <br><br>&ndash;Μέλος της Οργανωτικής Επιτροπής του 2ου Επιστημονικού Συμποσίου Φοιτητών του Τμήματος Μ.Π.Ε.Σ με τίτλο «Ασφάλεια και Προστασία της Ιδιωτικότητας στην Κοινωνία της Πληροφορίας» (2007).
+        <br><br>&ndash;Μέλος Επιτροπής Κατατακτηρίων Εξετάσεων (2007-8).
+        <br><br>&ndash; Μέλος της επιτροπής οργάνωσης διημερίδας για την παρουσίαση των ερευνητικών αποτελεσμάτων των υποψηφίων διδακτόρων του Τμήματος
+        </p>
+
+
+  </body>
+</html>
